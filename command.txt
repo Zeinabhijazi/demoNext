@@ -1,0 +1,16 @@
+1- npm install -g pnpm
+2- npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+3- cd nextjs-dashboard
+
+Running the development server:
+1- npm i //to install the project's packages
+2- npm run dev //to start the development server 
+difference between npm and pnpm size of node modules and structure point 2- pnpm dev
+
+
+4- npm i @vercel/postgres
+
+5- npm run lint
+6- pnpm i next-auth@beta
+7- generate a sceret key:
+openssl rand -base64 32
